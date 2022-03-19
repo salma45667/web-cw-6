@@ -1,8 +1,10 @@
-(function travel(x="زمردة"){
+let planet = prompt("كوكبك");
 
-    console.log("اود السفر الى" + x)
-})
+(function travel(x = "زمردة") {
+    console.log(" اود السفر الى" + x);
 
-let planet; //undefined
+})(planet);
 
-travel(planet);
+
+
+
